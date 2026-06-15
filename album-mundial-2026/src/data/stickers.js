@@ -14,7 +14,7 @@
 // con jugadores reales (160 figuritas de equipos + 9 especiales = 169 total)
 // ============================================================
 
-export const stickers = [
+const stickers = [
 
     // ============================================================
     // SECCION ESPECIAL â€” FIFA World Cup 2026
@@ -221,6 +221,8 @@ export const stickers = [
     { id: 168, code: "COL19", name: "Juan Fernando Quintero",  section: "Colombia",   group: "Grupo K", type: "jugador",  rarity: "base" },
     { id: 169, code: "COL20", name: "Ãlvaro Montero",          section: "Colombia",   group: "Grupo K", type: "jugador",  rarity: "base" },
   ];
+
+  export default stickers;
   
   // ============================================================
   // Referencia de los 48 equipos clasificados al Mundial 2026
